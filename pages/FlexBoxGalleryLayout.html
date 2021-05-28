@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<title>Flexbox Photo Gallery Layout</title>
+<style>
+    body{
+        background-color: blue;
+    }
+    h1{
+        color: white;
+        text-shadow: 3px 3px 1px black;
+    }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+  }
+  .cards img {
+   
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+  }</style>
+<body>
+<h1>Flexbox Photo Gallery Layout Sample</h1>
+<main class="cards">
+  <img src="../assets/1.jpeg" alt="Sample photo 1">
+  <img src="../assets/2.jpeg" alt="Sample photo 2">
+  <img src="../assets/3.jpeg" alt="Sample photo 3">
+  <img src="../assets/4.jpeg" alt="Sample photo 4">
+  <img src="../assets/5.jpeg" alt="Sample photo 5">
+  <img src="../assets/6.jpeg" alt="Sample photo 6">
+  <img src="../assets/7.jpeg" alt="Sample photo 7">
+  <img src="../assets/8.jpeg" alt="Sample photo 8">
+
+</main>
+</body>
+</html>
